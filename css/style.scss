@@ -1,0 +1,20 @@
+// Color Scheme
+$primary: #7D6E97;
+$secondary: #A6CB1B;
+$tertiary: #4C7BA5;
+$light: #F5F5F5;
+$white: #FFFFFF;
+$red: #ff3e3e;
+
+$table-border-color: $light;
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "tertiary": $tertiary,
+    "light": $light,
+    "red": $red,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
